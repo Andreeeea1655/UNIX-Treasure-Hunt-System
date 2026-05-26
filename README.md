@@ -27,6 +27,7 @@ Creation and storage of treasures
 File-based persistence (binary/text depending on implementation)
 Basic CRUD operations for treasures
 Directory structure management
+
 2. treasure_hub
 
 Core orchestrator of the system:
@@ -36,6 +37,7 @@ Handles signals (SIGUSR1, SIGUSR2, SIGTERM)
 Communicates with subprocesses via pipes
 Executes commands dynamically using execl
 Coordinates the treasure hunt flow
+
 3. calculate_score (external program)
 Independent executable
 Computes player score based on collected treasures
